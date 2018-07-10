@@ -77,7 +77,7 @@ header::after {
   transition: all ease-in-out 200ms;
 }
 
-#header1 {
+.section {
   padding-left: 5%;
 }
 
@@ -137,7 +137,6 @@ footer::after {
 
 .footernav {
   margin: auto;
-  width: 80%;
 }
 
 .footernav nav {
@@ -188,6 +187,11 @@ footer::after {
 .footernav nav a:hover::before {
   width: 100%;
   transition: all ease-in-out 200ms;
+}
+
+.lowernav a {
+
+
 }
 
 .twitter-logo {
